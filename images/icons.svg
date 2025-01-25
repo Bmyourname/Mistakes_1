@@ -47,6 +47,8 @@
     </symbol>
     <symbol id="check-box">
       <rect width="15" height="15" x=".5" y=".5" stroke="#2E2F42" stroke-opacity=".4" rx="1.5"/>
+    <symbol id="new_tg" viewBox="0 0 32 32">
+      <path d="m1024 85.333-1024 480 327.251 101.001L832 272 448.073 703.629l.311.098-.384-.098v235.038l183.522-178.419 232.482 71.753L1024 85.334z"/>
     </symbol>
   </defs>
 </svg>

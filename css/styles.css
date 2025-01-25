@@ -24,8 +24,6 @@ ol {
     margin-right: auto;
     flex-direction: row;
     justify-content: flex-start;
-    padding-left: 15px;
-    padding-right: 15px;
 }
 
 img {
@@ -54,6 +52,7 @@ p {
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16),
         0px 1px 6px rgba(46, 47, 66, 0.08);
+    height: 70px;
 }
 
 .head-conteiner {
@@ -72,7 +71,7 @@ p {
     color: #4D5AE5;
     padding-right: 76px;
     padding-left: 115px;
-    padding-bottom: 24px;
+    padding-top: 24px;
 }
 
 .logo-style {
@@ -92,9 +91,8 @@ p {
     line-height: 150%;
     letter-spacing: 0.02em;
     color: #2E2F42;
-
-    padding-bottom: 24px;
     padding-right: 328px;
+    padding-top: 24px;
     gap: 40px;
 }
 
@@ -105,7 +103,6 @@ p {
     line-height: 150%;
     letter-spacing: 0.02em;
     color: #2E2F42;
-    padding-bottom: 24px;
     padding-top: 24px;
 }
 
@@ -213,7 +210,8 @@ p {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    max-width: 1440px
+    max-width: 1440px;
+    height:600px;
 }
 
 .box-title {
@@ -256,10 +254,9 @@ p {
 .values {
     padding-top: 120px;
     padding-bottom: 120px;
-    margin-right: 156px;
-    margin-left: 156px;
+    margin-right: 560px;
+    margin-left: 560px;
     max-width: 1440px;
-    position: c
 }
 
 .visually-hidden {
@@ -316,17 +313,23 @@ p {
     background-color: #F4F4FD;
     padding-top: 120px;
     padding-bottom: 120px;
+    margin-left: 560px;
+    margin-right: 560px;
 }
 
 .team_def {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16),
         0px 2px 1px rgba(46, 47, 66, 0.08);
+    background-color: #FFFFFF;
+    width: 264px;
+    border-radius: 0px 0px 4px 4px;
 }
 
 .team_list {
     gap:24px;
     display: flex;
+    justify-content: center;
 }
 
 .team_title {
@@ -338,12 +341,6 @@ p {
     text-transform: capitalize;
     color: #2E2F42;
     margin-bottom: 72px;
-}
-
-.team_def {
-    background-color: #FFFFFF;
-    width: calc((100% - 72px) / 4);
-    border-radius: 0px 0px 4px 4px;
 }
 
 .worker {
@@ -407,6 +404,8 @@ p {
 .experiences {
     padding-top: 120px;
     padding-bottom: 120px;
+    margin-left: 560px;
+    margin-right: 560px;
 }
 
 .portfolio {
@@ -424,11 +423,12 @@ p {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
+    justify-content: center;
 }
 
 .item {
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    width: calc((100% - 48px) / 3);
+    width: 360px;
 }
 
 .item:hover {
@@ -495,18 +495,27 @@ p {
 /* #region Footer */
 
 .footer{
+    display:flex;
+
     background-color: #2E2F42;
     padding-top: 100px;
     padding-bottom: 100px;
+    background-size: cover;
+    justify-content: center;
+}
+
+.foot_container{
+    display: flex;
+    justify-self: start;
 }
 
 .foot {
-    display: flex;
     align-items: baseline;
 }
 
 .paragraph {
-    margin-right: 120px;
+    padding-right: 120px;
+    padding-left: 156px;
 }
 
 .logo-footer {
@@ -526,13 +535,17 @@ p {
 }
 
 .final_word {
+    display:block;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #F4F4FD;
-    padding-right: 264px;
-    padding-bottom: 112px;
+    width:264px;
+    height: 72px;
 }
 
+.socialmedia_links{
+    padding-right: 80px;
+}
 .socialmedia {
     font-weight: 500;
     font-size: 16px;
@@ -627,6 +640,10 @@ input::placeholder {
 
 .telegram {
     margin-left: 16px;
+}
+
+.icons_footer {
+    color:#FFFFFF
 }
 
 /* #endregion Footer */
